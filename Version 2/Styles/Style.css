@@ -1,29 +1,29 @@
 /*Показал свой код приятелю и он предложил пофлексить :-)*/
-.Block,
-.Info {
+.block,
+.info {
     display: flex;
     justify-content: space-between;
     font-size: 32px;
 }
 
-.Photo {
+.photo {
     flex: 1 0 1px;
 }
 
-.Content {
+.content {
     flex: 3 0 1px;
 }
 
-.Photo img {
+.photo img {
     width: 100%;
 }
 
-.Header {
+.header {
     background-color: rgb(171, 201, 162);
     padding: 5px;
 }
 
-.Name {
+.name {
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ body {
     animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.Info * {
+.info * {
     padding: 25px;
 }
 

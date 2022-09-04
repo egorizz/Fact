@@ -1,50 +1,50 @@
-.Header,
-.Photo,
-.Block,
-.Name,
-.Information,
-.Comment {
+.header,
+.photo,
+.block,
+.name,
+.information,
+.comment {
     text-align: center;
     font-size: 32px;
     background-color: blanchedalmond;
 }
 
-.Egorka {
+.egorka {
     width: 90%;
 }
 
-.Header {
+.header {
     height: 100px;
     background-color: rgb(211, 188, 152);
     text-align: left;
 }
 
-.Photo {
+.photo {
     height: 800px;
     width: 33.3%;
     float: left;
     text-align: left;
 }
 
-.Block {
+.block {
     height: 700px;
     width: 66.6%;
     float: left;
     padding-top: 100px;
 }
 
-.Name {
+.name {
     height: 100px;
 
 }
 
-.Information {
+.information {
     height: 600px;
     width: 66.6%;
     float: left;
 }
 
-.Comment {
+.comment {
     height: 600px;
     width: 33.3%;
     float: left;
