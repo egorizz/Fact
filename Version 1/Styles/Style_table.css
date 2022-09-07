@@ -7,3 +7,7 @@ td {
 img {
     display: block;
 }
+
+td {
+    padding: 0;
+}
