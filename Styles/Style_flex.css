@@ -1,10 +1,14 @@
-.flex-item{
+.flex-item {
     background-color: blueviolet;
-    border-radius: 100px;
-    margin-top: 5px;
-    margin-left: 5px;
-    padding: 40px;
+    border-radius: 1000px;
+    width: 10%;
+    aspect-ratio: 1/1;
+    /* Решил использовать экспериментальное свойство */
 }
-.container{
+
+.container {
     display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

@@ -19,7 +19,7 @@
         <label>
             E-mail
         </label>
-        <input type="email">
+        <input type="email" required>
     </p>
     <p>
         <label>
@@ -34,6 +34,7 @@
     </p>
     <p>
         <fieldset>
+            <legend>Хочу быть...</legend>
         <input type="radio" name="radio">Junior PHP Developer
         <input type="radio" name="radio">Midle PHP Developer
         <input type="radio" name="radio">Front-end разработчик
@@ -42,10 +43,23 @@
     </p>
     <p>
         <fieldset>
+            <legend>Мои навыки в программировании</legend>
         <input type="checkbox" name="checkbox">Бог программирования
         <input type="checkbox" name="checkbox">Гуру программирования
         <input type="checkbox" name="checkbox">Эмм... я ещё учусь
         </fieldset>
+    </p>
+    <p>
+        <label>
+            Во сколько мне удобно приходить на занятия?
+        </label>
+        <input type="time" step="5">
+    </p>
+    <p>
+        <label>Мои пожелания и комментарии по курсам</label>
+        <textarea rows="5" cols="50">
+
+        </textarea>
     </p>
     <p>
         <button type="submit">Всё, я справился с заполнением формы</button>
