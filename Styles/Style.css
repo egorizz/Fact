@@ -44,19 +44,24 @@ body {
     justify-content: space-around;
     text-align: center;
 }
-.conteiner div{
+
+.conteiner div {
     width: 15%;
 }
-.conteiner img{
+
+.conteiner img {
     width: 100%;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.wrap div{
+
+.wrap div {
     width: 40%;
 }
-.wrap img{
+
+.wrap img {
     width: 50%;
 }
 

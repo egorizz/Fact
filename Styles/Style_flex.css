@@ -1,4 +1,26 @@
-.flex-item {
+.flex-item1 {
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+
+.flex-item2 {
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap;
+}
+
+.flex-item3 {
     background-color: blueviolet;
     border-radius: 1000px;
     width: 10%;
@@ -6,7 +28,7 @@
     /* Решил использовать экспериментальное свойство */
 }
 
-.container {
+.container3 {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
