@@ -1,11 +1,4 @@
-.flex-item1 {
-    background-color: blueviolet;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 25px;
-}
-
+.flex-item1,
 .flex-item2 {
     background-color: blueviolet;
     border-radius: 50%;
